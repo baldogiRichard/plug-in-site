@@ -28,7 +28,7 @@ prompt APPLICATION 124962 - APEX Plug-ins by Richard Baldogi
 -- Application Export:
 --   Application:     124962
 --   Name:            APEX Plug-ins by Richard Baldogi
---   Date and Time:   20:37 Samstag Oktober 29, 2022
+--   Date and Time:   09:28 Sonntag Oktober 30, 2022
 --   Exported By:     BALDOGI.RICHARD@REMEDIOS.HU
 --   Flashback:       0
 --   Export Type:     Application Export
@@ -115,7 +115,7 @@ wwv_flow_imp.create_flow(
 ,p_substitution_string_01=>'APP_NAME'
 ,p_substitution_value_01=>'APEX Plug-ins by Richard Baldogi'
 ,p_last_updated_by=>'BALDOGI.RICHARD@REMEDIOS.HU'
-,p_last_upd_yyyymmddhh24miss=>'20221029203658'
+,p_last_upd_yyyymmddhh24miss=>'20221030092703'
 ,p_file_prefix => nvl(wwv_flow_application_install.get_static_app_file_prefix,'')
 ,p_files_version=>14
 ,p_print_server_type=>'INSTANCE'
@@ -196,7 +196,7 @@ wwv_flow_imp_shared.create_list_item(
 ,p_list_item_link_text=>'About me'
 ,p_list_item_link_target=>'f?p=&APP_ID.:3:&SESSION.::&DEBUG.::::'
 ,p_list_item_icon=>'fa-user'
-,p_list_text_01=>'Detailed description about me.'
+,p_list_text_01=>'A small description about me.'
 ,p_list_item_current_type=>'COLON_DELIMITED_PAGE_LIST'
 ,p_list_item_current_for_pages=>'3'
 );
